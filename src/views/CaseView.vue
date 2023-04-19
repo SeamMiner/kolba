@@ -69,7 +69,7 @@ const setByDefault = (event: any, image_url: string) => {
   position: relative;
 
   header {
-    position: absolute;
+    position: fixed;
     min-height: 145px;
     left: 0px;
     right: 0px;
