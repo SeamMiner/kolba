@@ -5,27 +5,47 @@
       <div class="cases__filters">
         <span
           class="cases__filter"
-          v-for="filter in tabs"
+          v-for="filter in tags"
           :key="filter"
           :class="{ active: currentTab == filter }"
           @click="currentTab = filter"
           >{{ t(`pages.cases.filters.${filter}`) }}</span
         >
+
+        <div class="cases__subfilters" v-if="currentTab == 'other'">
+          <span
+            class="cases__subfilter"
+            v-for="filter in subtags"
+            :key="filter"
+            :class="{ active: currentSubTab == filter }"
+            @click="currentSubTab = filter"
+            >{{ t(`pages.cases.filters.subfilters.${filter}`) }}</span
+          >
+        </div>
       </div>
     </div>
 
     <div class="cases__wrapper">
       <template
-        v-for="{ href, title_key, image, tags } in projects"
-        :key="title_key"
+        v-for="({title_key, image, tags, subtags}, project) in projects"
+        :key="project"
       >
         <CaseCard
           class="case"
-          :href="href"
+          :href="{
+            name: 'Cases',
+            params: {
+              case: project
+            }
+          }"
           :title_key="title_key"
           :image="image"
           :tags="tags"
-          v-if="tags.includes(currentTab)"
+          v-if="
+            subtags ? 
+            subtags.includes(currentSubTab) : 
+            tags.includes(currentTab)
+          "
         />
       </template>
     </div>
@@ -35,59 +55,15 @@
 <script lang="ts" setup>
 import { defineComponent, ref } from "vue";
 import { useI18n } from "vue-i18n";
+import { projects, tags, subtags } from '@/locales/cases'
 
 import CaseCard from "@/components/CaseCard.vue";
 
 const { t } = useI18n();
 
-const tabs = ["best", "web", "mobile", "arts", "other"];
+const currentTab = ref<typeof tags[number]>(tags[0]);
 
-const currentTab = ref(tabs[0]);
-
-const projects = ref([
-  {
-    href: "",
-    title_key: "vv",
-    image: "vkusvill.png",
-    tags: ["best", "mobile"],
-  },
-  {
-    href: "",
-    title_key: "cassio",
-    image: "cassio.png",
-    tags: ["best", "web"],
-  },
-  {
-    href: "",
-    title_key: "honey",
-    image: "honey.png",
-    tags: ["best", "arts"],
-  },
-  {
-    href: "",
-    title_key: "game",
-    image: "game.png",
-    tags: ["best", "mobile"],
-  },
-  {
-    href: "",
-    title_key: "women",
-    image: "women.png",
-    tags: ["best", "web"],
-  },
-  {
-    href: "",
-    title_key: "cocktail",
-    image: "cocktail.png",
-    tags: ["best", "arts"],
-  },
-  {
-    href: "",
-    title_key: "dodui",
-    image: "dodui.png",
-    tags: ["best", "other"],
-  },
-]);
+const currentSubTab = ref<typeof subtags[number]>(subtags[0])
 </script>
 
 <style lang="scss" scoped>
@@ -127,12 +103,12 @@ const projects = ref([
       }
     }
 
-    .cases__filters {
+    .cases__filters, .cases__subfilters {
       display: flex;
       flex-wrap: wrap;
       gap: 12px 50px;
 
-      .cases__filter {
+      .cases__filter, .cases__subfilter {
         font-family: "SF Pro Display";
         font-style: normal;
         font-weight: 200;
@@ -145,6 +121,10 @@ const projects = ref([
           font-weight: 600;
         }
       }
+    }
+
+    .cases__subfilters {
+      flex: 100%;
     }
   }
 

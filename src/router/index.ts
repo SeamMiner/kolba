@@ -8,6 +8,11 @@ const routes: Array<RouteRecordRaw> = [
     component: HomeView,
   },
   {
+    path: "/cases/:case",
+    name: "Cases",
+    component: () => import('../views/CaseView.vue'),
+  },
+  {
     path: "/resume",
     name: "resume",
     beforeEnter: (to, from, next) => {

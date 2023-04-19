@@ -33,7 +33,13 @@
         "web": "Web",
         "mobile": "Mobile",
         "arts": "Arts",
-        "other": "Other"
+        "other": "Other",
+        "subfilters": {
+          "logos": "Logos",
+          "posters": "Posters",
+          "polygraphy": "Polygraphy",
+          "cassette": "Cassette"
+        }
       },
       "cases-cards": {
         "vv": "Mobile app for VkusVill couriers",
@@ -43,6 +49,16 @@
         "women": "Women's clothing online store",
         "cocktail": "Сocktail сard",
         "dodui": "Cassete sticker for DODUI & BonerKiller split"
+      }
+    },
+    "case-view": {
+      "header": {
+        "landing": "Landing page",
+        "back": "Back",
+        "info": {
+          "type": "Type",
+          "date": "Date"
+        }
       }
     }
   }

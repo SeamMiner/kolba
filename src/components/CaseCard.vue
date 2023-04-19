@@ -3,7 +3,7 @@
     <article v-bind="$attrs" @click="navigate" class="case__container">
       <span class="case__shadow"></span>
       <img
-        :src="require(`@/assets/cases/${props.image}`)"
+        :src="require(`@/assets/cases/${props.image}/card.png`)"
         :alt="props.title_key"
       />
       <h4>{{ t(`pages.cases.cases-cards.${props.title_key}`) }}</h4>
@@ -14,9 +14,10 @@
 <script lang="ts" setup>
 import { defineComponent, defineProps, ref } from "vue";
 import { useI18n } from "vue-i18n";
+import { RouteRecord } from "vue-router";
 
 interface cardProps {
-  href: string;
+  href: RouteRecord;
   title_key: string;
   image: string;
   tags: string[];
@@ -24,7 +25,7 @@ interface cardProps {
 
 const props = defineProps<cardProps>();
 
-const computedImage = ref(`@/assets/cases/${props.image}`);
+const computedImage = ref(`@/assets/cases/${props.image}/card.png`);
 
 const { t } = useI18n();
 </script>
