@@ -29,6 +29,7 @@
     "cases": {
       "title": "my w<span>o</span>rks",
       "filters": {
+        "ice_caves": "Expeditions lending",
         "best": "Best",
         "web": "Web",
         "mobile": "Mobile",
