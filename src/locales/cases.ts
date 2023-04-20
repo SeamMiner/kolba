@@ -40,7 +40,7 @@ const projects = {
   honey: {
     title_key: "honey",
     image: "honey",
-    tags: ["best", "arts"],
+    tags: ["best"],
   },
   game: {
     title_key: "game",
