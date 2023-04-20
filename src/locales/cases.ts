@@ -14,6 +14,15 @@ type Project = {
 }
 
 const projects = {
+  ice_caves: {
+    title_key: "ice_caves",
+    image: "ice_caves",
+    tags: ["web", "best"],
+    info: {
+      type: "Web-design",
+      date: new Date('2023-01')
+    }
+  },
   vkusvill: {
     title_key: "vv",
     image: "vkusvill",
