@@ -22,7 +22,8 @@ const projects = {
     info: {
       type: "Logo",
       date: new Date('2020-06')
-    },
+    }
+  },
   ice_caves: {
     title_key: "ice_caves",
     image: "ice_caves",
