@@ -14,6 +14,15 @@ type Project = {
 }
 
 const projects = {
+  uretra: {
+    title_key: "uretra",
+    image: "uretra",
+    tags: ["other", "best"],
+    subtags: ['Logos']
+    info: {
+      type: "Logo",
+      date: new Date('2020-06')
+    },
   ice_caves: {
     title_key: "ice_caves",
     image: "ice_caves",
