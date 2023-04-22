@@ -14,6 +14,16 @@ type Project = {
 }
 
 const projects = {
+  dodui2023: {
+    title_key: "dodui2023",
+    image: "dodui2023",
+    tags: ["other"],
+    subtags: ['cassette'],
+    info: {
+      type: "Cassette",
+      date: new Date('2023-03')
+    }
+  },
   dodui2022: {
     title_key: "dodui2022",
     image: "dodui2022",
@@ -193,7 +203,11 @@ const projects = {
     title_key: "dodui",
     image: "dodui",
     tags: ["best", "other"],
-    subtags: ['cassette']
+    subtags: ['cassette'],
+    info: {
+      type: "Cassette",
+      date: new Date('2021-07')
+    }
   },
 } as {
   [project: string]: Project
