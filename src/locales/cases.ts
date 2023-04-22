@@ -110,7 +110,8 @@ const projects = {
   cocktail: {
     title_key: "cocktail",
     image: "cocktail",
-    tags: ["best", "arts"],
+    tags: ["best", "other"],
+    subtags: ['polygraphy'],
   },
   dodui: {
     title_key: "dodui",
