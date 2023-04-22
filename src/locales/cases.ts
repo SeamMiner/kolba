@@ -95,7 +95,7 @@ const projects = {
   game: {
     title_key: "game",
     image: "game",
-    tags: ["best", "mobile"],
+    tags: ["best", "arts"],
   },
   women: {
     title_key: "women",
