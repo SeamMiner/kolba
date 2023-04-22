@@ -14,6 +14,46 @@ type Project = {
 }
 
 const projects = {
+  pp2: {
+    title_key: "pp2",
+    image: "pp2",
+    tags: ["other"],
+    subtags: ['posters'],
+    info: {
+      type: "Poster",
+      date: new Date('2023-03')
+    }
+  },
+  pp1: {
+    title_key: "pp1",
+    image: "pp1",
+    tags: ["other"],
+    subtags: ['posters'],
+    info: {
+      type: "Poster",
+      date: new Date('2023-01')
+    }
+  },
+  cum: {
+    title_key: "cum",
+    image: "cum",
+    tags: ["other"],
+    subtags: ['posters'],
+    info: {
+      type: "Poster",
+      date: new Date('2022-12')
+    }
+  },
+  ghost_dog: {
+    title_key: "ghost_dog",
+    image: "ghost_dog",
+    tags: ["other"],
+    subtags: ['posters'],
+    info: {
+      type: "Poster",
+      date: new Date('2021-10')
+    }
+  },
   uretra: {
     title_key: "uretra",
     image: "uretra",
@@ -29,6 +69,10 @@ const projects = {
     image: "honey",
     tags: ["best", "other"],
     subtags: ['logos'],
+    info: {
+      type: "Logo",
+      date: new Date('2022-11')
+    }
   },
   
   disthymia: {
@@ -84,7 +128,7 @@ const projects = {
     image: "vkusvill",
     tags: ["mobile"],
     info: {
-      type: "Web-design",
+      type: "Mobile",
       date: new Date('2022-12-01')
     }
   },
@@ -92,12 +136,20 @@ const projects = {
     title_key: "cassio",
     image: "casio",
     tags: ["best", "web"],
+    info: {
+      type: "Logo",
+      date: new Date('2023-01')
+    }
   },
   
   game: {
     title_key: "game",
     image: "game",
     tags: ["best", "arts"],
+    info: {
+      type: "Art",
+      date: new Date('2022-10')
+    }
   },
   women: {
     title_key: "women",
