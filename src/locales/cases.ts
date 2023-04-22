@@ -75,7 +75,7 @@ const projects = {
   vkusvill: {
     title_key: "vv",
     image: "vkusvill",
-    tags: ["best", "mobile"],
+    tags: ["mobile"],
     info: {
       type: "Web-design",
       date: new Date('2022-12-01')
@@ -89,7 +89,8 @@ const projects = {
   honey: {
     title_key: "honey",
     image: "honey",
-    tags: ["best"],
+    tags: ["best", "other"],
+    subtags: ['logos'],
   },
   game: {
     title_key: "game",
