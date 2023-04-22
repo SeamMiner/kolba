@@ -54,6 +54,16 @@ const projects = {
       date: new Date('2021-10')
     }
   },
+  zombi: {
+    title_key: "zombi",
+    image: "zombi",
+    tags: ["other"],
+    subtags: ['posters'],
+    info: {
+      type: "Poster",
+      date: new Date('2020-08')
+    }
+  },
   uretra: {
     title_key: "uretra",
     image: "uretra",
