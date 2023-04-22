@@ -24,6 +24,45 @@ const projects = {
       date: new Date('2020-06')
     }
   },
+    disthymia: {
+    title_key: "disthymia",
+    image: "disthymia",
+    tags: ["other"],
+    subtags: ['logos'],
+    info: {
+      type: "Logo",
+      date: new Date('2020-07')
+    }
+  },
+  transport_co: {
+    title_key: "transport_co",
+    image: "transport_co",
+    tags: ["web"],
+    info: {
+      type: "Web",
+      date: new Date('2023-01')
+    }
+  },
+  mfa: {
+    title_key: "mfa",
+    image: "mfa",
+    tags: ["other"],
+    subtags: ['logos'],
+    info: {
+      type: "Logo",
+      date: new Date('2020-04')
+    }
+  },
+    brain_wash: {
+    title_key: "brain_wash",
+    image: "brain_wash",
+    tags: ["other"],
+    subtags: ['logos'],
+    info: {
+      type: "Logo",
+      date: new Date('2020-08')
+    }
+  },
   ice_caves: {
     title_key: "ice_caves",
     image: "ice_caves",
