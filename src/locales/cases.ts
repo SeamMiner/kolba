@@ -147,7 +147,7 @@ const projects = {
     image: "casio",
     tags: ["best", "web"],
     info: {
-      type: "Logo",
+      type: "Web-design",
       date: new Date('2023-01')
     }
   },
