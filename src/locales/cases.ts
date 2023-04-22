@@ -25,7 +25,7 @@ const projects = {
     }
   },
   pp1: {
-    title_key: "ppf1",
+    title_key: "pp1",
     image: "ppf1",
     tags: ["other"],
     subtags: ['posters'],
