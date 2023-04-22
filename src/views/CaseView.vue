@@ -5,7 +5,7 @@
         <router-link class="nav__navigation" :to="{
           name: 'home'
         }">
-        <b>{{ t('pages.case-view.header.landing') }}</b> 
+        <b v-html="t(`pages.cases.cases-cards.${project.title_key}`)"></b> 
         <span>
           <img :src="require('@/assets/arrow--back.svg')" alt="Back">
           {{ t('pages.case-view.header.back') }}
@@ -23,7 +23,7 @@
       </nav>
     </header>
     <div class="case__wrapper">
-      <img :src="require(`@/assets/cases/${$route.params.case}/view.png`)" :alt="$route.params.case.toString()" @error="setByDefault($event, '@/assets/avatar.png')">
+      <img :src="require(`@/assets/cases/${$route.params.case}/view.png`)" @error="setByDefault($event, '@/assets/avatar.png')" :alt="$route.params.case.toString()">
     </div>
   </section>
 </template>
@@ -53,8 +53,14 @@ const normalizeValue = (value: any) => {
 }
 
 const setByDefault = (event: any, image_url: string) => {
+  console.log('error');
+  
   if (event.target) event.target.src = image_url;
 };
+
+const log = () => {
+  console.log('error');
+}
 
 </script>
 

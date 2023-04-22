@@ -6,7 +6,7 @@
         :src="require(`@/assets/cases/${props.image}/card.png`)"
         :alt="props.title_key"
       />
-      <h4>{{ t(`pages.cases.cases-cards.${props.title_key}`) }}</h4>
+      <h4 v-html="t(`pages.cases.cases-cards.${props.title_key}`)"></h4>
     </article>
   </router-link>
 </template>

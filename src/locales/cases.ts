@@ -18,7 +18,7 @@ const projects = {
     title_key: "uretra",
     image: "uretra",
     tags: ["best", "other"],
-    subtags: ['logos']
+    subtags: ['logos'],
     info: {
       type: "Logo",
       date: new Date('2020-06')
