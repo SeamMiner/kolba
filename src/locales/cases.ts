@@ -14,6 +14,16 @@ type Project = {
 }
 
 const projects = {
+  dodui2022: {
+    title_key: "dodui2022",
+    image: "dodui2022",
+    tags: ["other"],
+    subtags: ['cassette'],
+    info: {
+      type: "Cassette",
+      date: new Date('2022-03')
+    }
+  },
   pp2: {
     title_key: "pp2",
     image: "pp2",
