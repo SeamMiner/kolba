@@ -24,6 +24,13 @@ const projects = {
       date: new Date('2020-06')
     }
   },
+  honey: {
+    title_key: "honey",
+    image: "honey",
+    tags: ["best", "other"],
+    subtags: ['logos'],
+  },
+  
   disthymia: {
     title_key: "disthymia",
     image: "disthymia",
@@ -86,12 +93,7 @@ const projects = {
     image: "casio",
     tags: ["best", "web"],
   },
-  honey: {
-    title_key: "honey",
-    image: "honey",
-    tags: ["best", "other"],
-    subtags: ['logos'],
-  },
+  
   game: {
     title_key: "game",
     image: "game",
