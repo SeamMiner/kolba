@@ -17,7 +17,7 @@ const projects = {
   pp2: {
     title_key: "pp2",
     image: "pp2",
-    tags: ["other"],
+    tags: ["other", "best"],
     subtags: ['posters'],
     info: {
       type: "Poster",
@@ -158,7 +158,7 @@ const projects = {
   casio: {
     title_key: "cassio",
     image: "casio",
-    tags: ["best", "web"],
+    tags: ["web"],
     info: {
       type: "Web-design",
       date: new Date('2023-01')
