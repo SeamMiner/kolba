@@ -95,15 +95,7 @@ const projects = {
       date: new Date('2020-07')
     }
   },
-  transport_co: {
-    title_key: "transport_co",
-    image: "transport_co",
-    tags: ["web"],
-    info: {
-      type: "Web",
-      date: new Date('2023-01')
-    }
-  },
+
   mfa: {
     title_key: "mfa",
     image: "mfa",
@@ -124,6 +116,15 @@ const projects = {
       date: new Date('2020-08')
     }
   },
+  women: {
+    title_key: "women",
+    image: "women",
+    tags: ["best", "web"],
+    info: {
+      type: "Web-design",
+      date: new Date('2023-02-01'),
+    }
+  },
   ice_caves: {
     title_key: "ice_caves",
     image: "ice_caves",
@@ -142,15 +143,7 @@ const projects = {
       date: new Date('2022-12-01')
     }
   },
-  casio: {
-    title_key: "cassio",
-    image: "casio",
-    tags: ["best", "web"],
-    info: {
-      type: "Web-design",
-      date: new Date('2023-01')
-    }
-  },
+
   
   game: {
     title_key: "game",
@@ -161,13 +154,23 @@ const projects = {
       date: new Date('2022-10')
     }
   },
-  women: {
-    title_key: "women",
-    image: "women",
+  
+  casio: {
+    title_key: "cassio",
+    image: "casio",
     tags: ["best", "web"],
     info: {
       type: "Web-design",
-      date: new Date('2022-12-01'),
+      date: new Date('2023-01')
+    }
+  },
+  transport_co: {
+    title_key: "transport_co",
+    image: "transport_co",
+    tags: ["web"],
+    info: {
+      type: "Web",
+      date: new Date('2022-12')
     }
   },
   cocktail: {
