@@ -43,7 +43,7 @@
           :tags="tags"
           v-if="
             subtags ? 
-            subtags.includes(currentSubTab) : 
+            subtags.includes(currentSubTab) && tags.includes(currentTab) : 
             tags.includes(currentTab)
           "
         />

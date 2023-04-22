@@ -24,7 +24,7 @@ const projects = {
       date: new Date('2020-06')
     }
   },
-    disthymia: {
+  disthymia: {
     title_key: "disthymia",
     image: "disthymia",
     tags: ["other"],
@@ -53,7 +53,7 @@ const projects = {
       date: new Date('2020-04')
     }
   },
-    brain_wash: {
+  brain_wash: {
     title_key: "brain_wash",
     image: "brain_wash",
     tags: ["other"],
