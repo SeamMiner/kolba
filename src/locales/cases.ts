@@ -104,7 +104,6 @@ const projects = {
     info: {
       type: "Web-design",
       date: new Date('2022-12-01'),
-      landing: "Online clothes store",
     }
   },
   cocktail: {
