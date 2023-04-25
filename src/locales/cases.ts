@@ -1,6 +1,6 @@
-const tags = <const>["best", "mobile", "web", "arts", "other"]
+const tags = <const>["best", "mobile", "web", "arts", "posters", "other"]
 
-const subtags = <const>['logos', 'posters', 'polygraphy', 'cassette']
+const subtags = <const>['logos', 'polygraphy', 'cassette', 'different']
 
 type Project = {
   title_key: string,
@@ -47,8 +47,7 @@ const projects = {
   pp1: {
     title_key: "pp1",
     image: "ppf1",
-    tags: ["other"],
-    subtags: ['posters'],
+    tags: ["posters"],
     info: {
       type: "Poster",
       date: new Date('2023-01')
@@ -57,8 +56,7 @@ const projects = {
   cum: {
     title_key: "cum",
     image: "cum",
-    tags: ["other"],
-    subtags: ['posters'],
+    tags: ["posters"],
     info: {
       type: "Poster",
       date: new Date('2022-12')
@@ -67,8 +65,7 @@ const projects = {
   ghost_dog: {
     title_key: "ghost_dog",
     image: "ghost_dog",
-    tags: ["other"],
-    subtags: ['posters'],
+    tags: ["posters"],
     info: {
       type: "Poster",
       date: new Date('2021-10')
@@ -77,8 +74,7 @@ const projects = {
   zombi: {
     title_key: "zombi",
     image: "zombi",
-    tags: ["other"],
-    subtags: ['posters'],
+    tags: ["posters"],
     info: {
       type: "Poster",
       date: new Date('2020-08')
