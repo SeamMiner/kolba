@@ -33,10 +33,11 @@
         "web": "Веб",
         "mobile": "Мобилка",
         "arts": "Картинки",
+        "posters": "Постеры",
         "other": "Остальное",
         "subfilters": {
           "logos": "Логотипы",
-          "posters": "Плакаты",
+          "different": "Разное",
           "polygraphy": "Полиграфия",
           "cassette": "Кассеты"
         }
