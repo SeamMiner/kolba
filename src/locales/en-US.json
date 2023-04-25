@@ -35,9 +35,10 @@
         "mobile": "Mobile",
         "arts": "Arts",
         "other": "Other",
+        "posters": "Posters",
         "subfilters": {
           "logos": "Logos",
-          "posters": "Posters",
+          "different": "Different",
           "polygraphy": "Polygraphy",
           "cassette": "Cassette"
         }
