@@ -83,7 +83,7 @@ const projects = {
   uretra: {
     title_key: "uretra",
     image: "uretra",
-    tags: ["other"],
+    tags: ["other", "best"],
     subtags: ['logos'],
     info: {
       type: "Logo",
