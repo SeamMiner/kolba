@@ -37,7 +37,7 @@ const projects = {
   pp2: {
     title_key: "pp2",
     image: "pp2",
-    tags: ["other", "posters"],
+    tags: ["posters", "best"],
     info: {
       type: "Poster",
       date: new Date('2023-03')
