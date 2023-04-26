@@ -140,6 +140,16 @@ const projects = {
       date: new Date('2023-02-01'),
     }
   },
+  
+  casio: {
+    title_key: "cassio",
+    image: "casio",
+    tags: ["web"],
+    info: {
+      type: "Web-design",
+      date: new Date('2023-01')
+    }
+  },
   ice_caves: {
     title_key: "ice_caves",
     image: "ice_caves",
@@ -147,6 +157,15 @@ const projects = {
     info: {
       type: "Web-design",
       date: new Date('2023-01')
+    }
+  },
+  transport_co: {
+    title_key: "transport_co",
+    image: "transport_co",
+    tags: ["web"],
+    info: {
+      type: "Web",
+      date: new Date('2022-12')
     }
   },
      myplants: {
@@ -187,25 +206,7 @@ uretra: {
       date: new Date('2022-10')
     }
   },
-  
-  casio: {
-    title_key: "cassio",
-    image: "casio",
-    tags: ["web"],
-    info: {
-      type: "Web-design",
-      date: new Date('2023-01')
-    }
-  },
-  transport_co: {
-    title_key: "transport_co",
-    image: "transport_co",
-    tags: ["web"],
-    info: {
-      type: "Web",
-      date: new Date('2022-12')
-    }
-  },
+ 
   cocktail: {
     title_key: "cocktail",
     image: "cocktail",
