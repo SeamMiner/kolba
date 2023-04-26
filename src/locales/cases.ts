@@ -167,7 +167,16 @@ const projects = {
       date: new Date('2022-06')
     }
   },
-
+uretra: {
+    title_key: "uretra",
+    image: "uretra",
+    tags: ["other", "best"],
+    subtags: ['logos'],
+    info: {
+      type: "Logo",
+      date: new Date('2020-06')
+    }
+  },
   
   game: {
     title_key: "game",
