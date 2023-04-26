@@ -149,13 +149,22 @@ const projects = {
       date: new Date('2023-01')
     }
   },
+     myplants: {
+    title_key: "myplants",
+    image: "myplants",
+    tags: ["best", "mobile"],
+    info: {
+      type: "Mobile",
+      date: new Date('2023-03'),
+    }
+  },
   vkusvill: {
     title_key: "vv",
     image: "vkusvill",
     tags: ["mobile"],
     info: {
       type: "Mobile",
-      date: new Date('2022-12-01')
+      date: new Date('2022-06')
     }
   },
 
