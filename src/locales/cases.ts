@@ -14,6 +14,62 @@ type Project = {
 }
 
 const projects = {
+  
+  women: {
+    title_key: "women",
+    image: "women",
+    tags: ["best", "web"],
+    info: {
+      type: "Web-design",
+      date: new Date('2023-02-01'),
+    }
+  },
+  
+  casio: {
+    title_key: "cassio",
+    image: "casio",
+    tags: ["web"],
+    info: {
+      type: "Web-design",
+      date: new Date('2023-01')
+    }
+  },
+  ice_caves: {
+    title_key: "ice_caves",
+    image: "ice_caves",
+    tags: ["web", "best"],
+    info: {
+      type: "Web-design",
+      date: new Date('2023-01')
+    }
+  },
+  transport_co: {
+    title_key: "transport_co",
+    image: "transport_co",
+    tags: ["web"],
+    info: {
+      type: "Web",
+      date: new Date('2022-12')
+    }
+  },
+     myplants: {
+    title_key: "myplants",
+    image: "myplants",
+    tags: ["best", "mobile"],
+    info: {
+      type: "Mobile",
+      date: new Date('2023-03'),
+    }
+  },
+  vkusvill: {
+    title_key: "vv",
+    image: "vkusvill",
+    tags: ["mobile"],
+    info: {
+      type: "Mobile",
+      date: new Date('2022-06')
+    }
+  },
   dodui2023: {
     title_key: "dodui2023",
     image: "dodui2023",
@@ -129,71 +185,6 @@ const projects = {
     info: {
       type: "Logo",
       date: new Date('2020-08')
-    }
-  },
-  women: {
-    title_key: "women",
-    image: "women",
-    tags: ["best", "web"],
-    info: {
-      type: "Web-design",
-      date: new Date('2023-02-01'),
-    }
-  },
-  
-  casio: {
-    title_key: "cassio",
-    image: "casio",
-    tags: ["web"],
-    info: {
-      type: "Web-design",
-      date: new Date('2023-01')
-    }
-  },
-  ice_caves: {
-    title_key: "ice_caves",
-    image: "ice_caves",
-    tags: ["web", "best"],
-    info: {
-      type: "Web-design",
-      date: new Date('2023-01')
-    }
-  },
-  transport_co: {
-    title_key: "transport_co",
-    image: "transport_co",
-    tags: ["web"],
-    info: {
-      type: "Web",
-      date: new Date('2022-12')
-    }
-  },
-     myplants: {
-    title_key: "myplants",
-    image: "myplants",
-    tags: ["best", "mobile"],
-    info: {
-      type: "Mobile",
-      date: new Date('2023-03'),
-    }
-  },
-  vkusvill: {
-    title_key: "vv",
-    image: "vkusvill",
-    tags: ["mobile"],
-    info: {
-      type: "Mobile",
-      date: new Date('2022-06')
-    }
-  },
-uretra: {
-    title_key: "uretra",
-    image: "uretra",
-    tags: ["other", "best"],
-    subtags: ['logos'],
-    info: {
-      type: "Logo",
-      date: new Date('2020-06')
     }
   },
   
