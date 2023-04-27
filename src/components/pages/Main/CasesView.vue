@@ -108,7 +108,7 @@ const currentSubTab = ref<typeof subtags[number]>(subtags[0])
       flex-wrap: wrap;
       gap: 12px 50px;
 
-      .cases__filter, .cases__subfilter {
+      .cases__filter {
         font-family: "SF Pro Display";
         font-style: normal;
         font-weight: 200;
@@ -117,6 +117,19 @@ const currentSubTab = ref<typeof subtags[number]>(subtags[0])
         color: var(--black);
         cursor: pointer;
 
+        &.active {
+          font-weight: 600;
+        }
+      }
+      .cases__subfilter {
+        font-family: "SF Pro Display";
+        font-style: light;
+        font-weight: 200;
+        font-size: 20px;
+        line-height: 29px;
+        color: var(--black);
+        cursor: pointer;
+        
         &.active {
           font-weight: 600;
         }
