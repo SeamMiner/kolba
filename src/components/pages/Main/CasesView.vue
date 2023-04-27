@@ -26,27 +26,32 @@
     </div>
 
     <div class="cases__wrapper">
-      <template
-        v-for="({title_key, image, tags, subtags}, project) in projects"
-        :key="project"
-      >
-        <CaseCard
-          class="case"
-          :href="{
-            name: 'Cases',
-            params: {
-              case: project
-            }
-          }"
-          :title_key="title_key"
-          :image="image"
-          :tags="tags"
-          v-if="
-            subtags ? 
-            subtags.includes(currentSubTab) && tags.includes(currentTab) : 
-            tags.includes(currentTab)
-          "
-        />
+      <template v-if="currentTab != 'arts'">
+        <template
+          v-for="({title_key, image, tags, subtags}, project) in projects"
+          :key="project"
+        >
+          <CaseCard
+            class="case"
+            :href="{
+              name: 'Cases',
+              params: {
+                case: project
+              }
+            }"
+            :title_key="title_key"
+            :image="image"
+            :tags="tags"
+            v-if="
+              subtags ? 
+              subtags.includes(currentSubTab) && tags.includes(currentTab) : 
+              tags.includes(currentTab)
+            "
+          />
+        </template>
+      </template>
+      <template v-else>
+        <img class="case__arts" :src="require('@/assets/cases/arts.png')" alt="Arts">
       </template>
     </div>
   </section>
@@ -149,6 +154,16 @@ const currentSubTab = ref<typeof subtags[number]>(subtags[0])
 
     @media (max-width: 768px) {
       grid: 1fr / 1fr;
+    }
+
+    .case__arts {
+      grid-column: span 2;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      @media (max-width: 768px) {
+        grid-column: span 1;
+      }
     }
   }
 }
