@@ -13,7 +13,7 @@
             <div class="creator">
               <span>Frontend by</span>
               <span
-                ><a href="https://t.me/k0lba" target="_blank">kolba</a></span
+                ><a href="https://platon.page" target="_blank">seamminer</a></span
               >
             </div>
           </div>
