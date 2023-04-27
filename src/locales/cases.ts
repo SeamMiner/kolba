@@ -70,6 +70,15 @@ const projects = {
       date: new Date('2022-06')
     }
   },
+  confectionery: {
+    title_key: "confectionery",
+    image: "confectionery",
+    tags: ["web"],
+    info: {
+      type: "Web",
+      date: new Date('2019-11')
+    }
+  },
   dodui2023: {
     title_key: "dodui2023",
     image: "dodui2023",
