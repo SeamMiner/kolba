@@ -196,13 +196,26 @@ const projects = {
       type: "Art",
       date: new Date('2022-10')
     }
-  },
- 
+  }, 
   cocktail: {
     title_key: "cocktail",
     image: "cocktail",
     tags: ["best", "other"],
     subtags: ['polygraphy'],
+    info: {
+      type: "Polygraphy",
+      date: new Date('2023-01')
+    }
+  },
+  menu: {
+    title_key: "menu",
+    image: "menu",
+    tags: ["other"],
+    subtags: ['polygraphy'],
+    info: {
+      type: "Polygraphy",
+      date: new Date('2022-11')
+    }
   },
   dodui: {
     title_key: "dodui",
