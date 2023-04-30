@@ -147,7 +147,7 @@ const projects = {
   uretra: {
     title_key: "uretra",
     image: "uretra",
-    tags: ["other", "best"],
+    tags: ["other"],
     subtags: ['logos'],
     info: {
       type: "Logo",
