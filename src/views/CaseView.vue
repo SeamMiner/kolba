@@ -23,7 +23,7 @@
       </nav>
     </header>
     <div class="case__wrapper">
-      <img :src="require(`@/assets/cases/${project.case}/view.png`)" @error="setByDefault($event, '@/assets/avatar.png')" :alt="$route.params.case.toString()">
+      <img :src="require(`@/assets/cases/${project.thumbnail}`)" @error="setByDefault($event, '@/assets/avatar.png')" :alt="$route.params.case.toString()">
     </div>
   </section>
 </template>
