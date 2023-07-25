@@ -15,6 +15,16 @@ type Project = {
 
 const projects = {
   
+  ppf3: {
+    title_key: "ppf3",
+    image: "ppf3",
+    tags: ["best", "posters"],
+    info: {
+      type: "Poster",
+      date: new Date('2023-06-01'),
+    }
+  },
+
   women: {
     title_key: "women",
     image: "women",
