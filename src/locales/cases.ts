@@ -1,6 +1,6 @@
-const tags = <const>["best", "mobile", "web", "arts", "posters", "other"]
+const tags = <const>["best",  "web", "mobile", "posters", "arts", "other"]
 
-const subtags = <const>['logos', 'polygraphy', 'cassette', 'different']
+const subtags = <const>['logos', 'cassette', 'polygraphy', 'different']
 
 type Project = {
   title_key: string,
