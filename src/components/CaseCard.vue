@@ -3,7 +3,7 @@
     <article v-bind="$attrs" @click="navigate" class="case__container">
       <span class="case__shadow"></span>
       <img
-        :src="require(`@/assets/cases/${props.image}/card.png`)"
+        :src="require(`@/assets/cases/${props.thumbnail}`)"
         :alt="props.title_key"
       />
       <h4 v-html="t(`pages.cases.cases-cards.${props.title_key}`)"></h4>
@@ -19,7 +19,7 @@ import { RouteRecord } from "vue-router";
 interface cardProps {
   href: RouteRecord;
   title_key: string;
-  image: string;
+  thumbnail: string;
   tags: string[];
 }
 
