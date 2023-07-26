@@ -19,7 +19,7 @@ const projects = {
     title_key: "prostor2023",
     image: "prostor2023/card.png",
     thumbnail: "prostor2023/view.png",
-    tags: ["other", "best"],
+    tags: ["best", "other"],
     subtags: ['different'],
     info: {
       type: "Education",
