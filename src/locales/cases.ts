@@ -14,18 +14,6 @@ type Project = {
 }
 
 const projects = {
-
-  test: {
-    title_key: "test",
-    image: "test/test.gif",
-    thumbnail: "test/test.gif",
-    tags: ["posters"],
-    info: {
-      type: "Poster",
-      date: new Date('2023-06-01'),
-    }
-  },
-  
   ppf3: {
     title_key: "ppf3",
     image: "ppf3/card.png",
