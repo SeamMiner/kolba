@@ -44,6 +44,7 @@
         }
       },
       "cases-cards": {
+        "prostor2023": "Tasks for the educational open-call &laquo;Prostor design&raquo;",
         "confectionery": "Online confectionery design",
         "menu": "Single-page menu design",
         "myplants": "App for the care of home plants",
@@ -68,7 +69,7 @@
         "women": "Women's clothing online store",
         "cocktail": "Сocktail сard",
         "dodui": "Cassete sticker for DODUI & BonerKiller split",
-        "prostor2023": "Tasks for the educational open-call &laquo;Prostor design&raquo;"
+        
       }
     },
     "case-view": {
