@@ -17,11 +17,12 @@ const projects = {
   
   prostor2023: {
     title_key: "prostor2023",
-    image: "prostor2023",
+    image: "prostor2023/card.png",
+    thumbnail: "prostor2023/view.png",
     tags: ["other", "best"],
     subtags: ['different'],
     info: {
-      type: "Homework",
+      type: "Education",
       date: new Date('2023-04-01'),
     }
   },
