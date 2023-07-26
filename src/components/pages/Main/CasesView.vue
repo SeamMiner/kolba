@@ -28,7 +28,7 @@
     <div class="cases__wrapper">
       <template v-if="currentTab != 'arts'">
         <template
-          v-for="({title_key, image, tags, subtags}, project) in projects"
+          v-for="({title_key, tags, subtags, image}, project) in projects"
           :key="project"
         >
           <CaseCard
