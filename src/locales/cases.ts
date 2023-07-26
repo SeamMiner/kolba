@@ -15,6 +15,17 @@ type Project = {
 
 const projects = {
   
+  prostor2023: {
+    title_key: "prostor2023",
+    image: "prostor2023",
+    tags: ["other", "best"],
+    subtags: ['different'],
+    info: {
+      type: "Homework",
+      date: new Date('2023-04-01'),
+    }
+  },
+
   ppf3: {
     title_key: "ppf3",
     image: "ppf3",
