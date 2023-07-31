@@ -61,7 +61,7 @@ const projects = {
   },
   ice_caves: {
     title_key: "ice_caves",
-    image: "ice_caves/card.png",
+    image: "ice_caves/card.gif",
     thumbnail: "ice_caves/view.png",
     tags: ["web", "best"],
     info: {
