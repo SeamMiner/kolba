@@ -14,23 +14,24 @@ type Project = {
 }
 
 const projects = {
-
-  test: {
-    title_key: "test",
-    image: "test/test.gif",
-    thumbnail: "test/test.gif",
-    tags: ["posters"],
+  
+  prostor2023: {
+    title_key: "prostor2023",
+    image: "prostor2023/card.png",
+    thumbnail: "prostor2023/view.png",
+    tags: ["best", "other"],
+    subtags: ['different'],
     info: {
-      type: "Poster",
-      date: new Date('2023-06-01'),
+      type: "Education",
+      date: new Date('2023-04-01'),
     }
   },
-  
+
   ppf3: {
     title_key: "ppf3",
     image: "ppf3/card.png",
     thumbnail: "ppf3/view.png",
-    tags: ["posters"],
+    tags: ["posters", "best"],
     info: {
       type: "Poster",
       date: new Date('2023-06-01'),
@@ -134,7 +135,7 @@ const projects = {
     title_key: "pp2",
     image: "pp2/card.png",
     thumbnail: "pp2/view.png",
-    tags: ["posters", "best"],
+    tags: ["posters"],
     info: {
       type: "Poster",
       date: new Date('2023-03')
@@ -252,7 +253,7 @@ const projects = {
     title_key: "cocktail",
     image: "cocktail/card.png",
     thumbnail: "cocktail/view.png",
-    tags: ["best", "other"],
+    tags: ["other"],
     subtags: ['polygraphy'],
     info: {
       type: "Polygraphy",
