@@ -43,7 +43,7 @@
             :image="image"
             :tags="tags"
             v-if="
-              currentTab == 'other' ? 
+              currentTab == 'other' && subtags ? 
               subtags.includes(currentSubTab) && tags.includes(currentTab) : 
               tags.includes(currentTab)
             "
