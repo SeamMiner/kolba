@@ -73,7 +73,7 @@ const projects = {
     title_key: "transport_co",
     image: "transport_co/card.png",
     thumbnail: "transport_co/view.png",
-    tags: ["web"],
+    tags: ["web", "best"],
     info: {
       type: "Web",
       date: new Date('2022-12')
@@ -185,7 +185,7 @@ const projects = {
     title_key: "uretra",
     image: "uretra/card.png",
     thumbnail: "uretra/view.png",
-    tags: ["other", "best"],
+    tags: ["other"],
     subtags: ['logos'],
     info: {
       type: "Logo",
