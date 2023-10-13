@@ -17,7 +17,7 @@ const projects = {
   
   metro: {
     title_key: "metro",
-    image: "metro/card.png",
+    image: "metro/card.gif",
     thumbnail: "metro/view.png",
     tags: ["best", "web"],
     info: {
@@ -76,7 +76,7 @@ const projects = {
     title_key: "women",
     image: "women/card.png",
     thumbnail: "women/view.png",
-    tags: ["best", "web"],
+    tags: ["web"],
     info: {
       type: "Web-design",
       date: new Date('2023-02-01'),
@@ -277,7 +277,7 @@ const projects = {
     title_key: "game",
     image: "game/card.png",
     thumbnail: "game/view.png",
-    tags: ["best", "arts"],
+    tags: ["arts"],
     info: {
       type: "Art",
       date: new Date('2022-10')
