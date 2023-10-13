@@ -15,6 +15,40 @@ type Project = {
 
 const projects = {
   
+  metro: {
+    title_key: "metro",
+    image: "metro/card.png",
+    thumbnail: "metro/view.png",
+    tags: ["best", "web"],
+    info: {
+      type: "Web-design",
+      date: new Date('2023-07-01'),
+    }
+  },
+
+  enigma: {
+    title_key: "enigma",
+    image: "enigma/card.png",
+    thumbnail: "enigma/view.png",
+    tags: ["best", "other"],
+    subtags: ['different'],
+    info: {
+      type: "Маркетплейсы",
+      date: new Date('2023-08-01'),
+    }
+  },
+
+ ppf4: {
+    title_key: "ppf4",
+    image: "ppf4/card.png",
+    thumbnail: "ppf4/view.png",
+    tags: ["posters", "best"],
+    info: {
+      type: "Poster",
+      date: new Date('2023-08-01'),
+    }
+  },
+
   prostor2023: {
     title_key: "prostor2023",
     image: "prostor2023/card.png",
@@ -31,7 +65,7 @@ const projects = {
     title_key: "ppf3",
     image: "ppf3/card.png",
     thumbnail: "ppf3/view.png",
-    tags: ["posters", "best"],
+    tags: ["posters"],
     info: {
       type: "Poster",
       date: new Date('2023-06-01'),
