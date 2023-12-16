@@ -64,7 +64,7 @@ const projects = {
     title_key: "enigma",
     image: "enigma/card.png",
     thumbnail: "enigma/view.png",
-    tags: ["best", "other"],
+    tags: ["other"],
     subtags: ['different'],
     info: {
       type: "Маркетплейсы",
