@@ -15,6 +15,40 @@ type Project = {
 
 const projects = {
   
+ TBP: {
+    title_key: "TBP",
+    image: "TBP/card.png",
+    thumbnail: "TBP/view.png",
+    tags: ["posters"],
+    info: {
+      type: "Poster",
+      date: new Date('2023-11-01'),
+    }
+  },
+
+  Sosed: {
+    title_key: "Sosed",
+    image: "Sosed/card.png",
+    thumbnail: "Sosed/view.png",
+    tags: ["best", "other"],
+    subtags: ['different'],
+    info: {
+      type: "Brand",
+      date: new Date('2023-10-01'),
+    }
+  },
+
+  AirDrug: {
+    title_key: "AirDrug",
+    image: "AirDrug/card.png",
+    thumbnail: "AirDrug/view.png",
+    tags: ["web"],
+    info: {
+      type: "Web-design",
+      date: new Date('2023-08-01'),
+    }
+  },
+
   metro: {
     title_key: "metro",
     image: "metro/card.gif",
