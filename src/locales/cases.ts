@@ -1,6 +1,6 @@
-const tags = <const>["best",  "web", "mobile", "posters", "arts", "other"]
+const tags = <const>["best",  "web", "mobile", "posters",  "other","different"]
 
-const subtags = <const>['logos', 'cassette', 'polygraphy', 'different']
+const subtags = <const>['logos', 'cassette', 'polygraphy','arts']
 
 type Project = {
   title_key: string,
@@ -14,6 +14,42 @@ type Project = {
 }
 
 const projects = {
+
+ ai-chat: {
+    title_key: "ai-chat",
+    image: "ai-chat/card.png",
+    thumbnail: "ai-chat/view.png",
+    tags: ["best", "other"],
+    subtags: ['different'],
+    info: {
+      type: "Маркетплейсы",
+      date: new Date('2024-07-01'),
+    }
+  },
+
+ CARDS2: {
+    title_key: "CARDS2",
+    image: "CARDS2/card.png",
+    thumbnail: "CARDS2/view.png",
+    tags: ["best", "other"],
+    subtags: ['different'],
+    info: {
+      type: "Маркетплейсы",
+      date: new Date('2024-07-01'),
+    }
+  },
+
+ CARDS1: {
+    title_key: "CARDS1",
+    image: "CARDS1/card.png",
+    thumbnail: "CARDS1/view.png",
+    tags: ["best", "other"],
+    subtags: ['different'],
+    info: {
+      type: "Маркетплейсы",
+      date: new Date('2024-07-01'),
+    }
+  },
   
  TBP: {
     title_key: "TBP",

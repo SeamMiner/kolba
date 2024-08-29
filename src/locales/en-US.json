@@ -44,6 +44,9 @@
         }
       },
       "cases-cards": {
+	"ai-chat": "AI_Chat Interface",
+	"CARDS1": "Masks cards for marketplae",
+	"CARDS2": "Cards for marketplae",
 	"TBP": "Poster for a lecture about beer",
 	"Sosed": "Universal brand",
 	"AirDrug": "Landing",
