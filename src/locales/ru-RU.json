@@ -32,14 +32,14 @@
         "best": "Любимые",
         "web": "Веб",
         "mobile": "Мобилка",
-        "arts": "Картинки",
+        "different": "Разное",
         "posters": "Постеры",
-        "other": "Остальное",
+        "other": "Другие категории",
         "subfilters": {
           "logos": "Логотипы",
-          "different": "Разное",
           "polygraphy": "Полиграфия",
-          "cassette": "Кассеты"
+          "cassette": "Кассеты",
+	  "arts": "Картинки"
         }
       },
       "cases-cards": {

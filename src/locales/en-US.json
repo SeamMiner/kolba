@@ -33,14 +33,15 @@
         "best": "Favorite",
         "web": "Web",
         "mobile": "Mobile",
-        "arts": "Arts",
-        "other": "Other",
+	"different": "Different",
         "posters": "Posters",
+        "other": "Other categories",
         "subfilters": {
           "logos": "Logos",
-          "different": "Different",
           "polygraphy": "Polygraphy",
-          "cassette": "Cassette"
+          "cassette": "Cassette",
+           "arts": "Arts"
+
         }
       },
       "cases-cards": {

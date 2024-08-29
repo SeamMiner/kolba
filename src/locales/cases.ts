@@ -19,10 +19,9 @@ const projects = {
     title_key: "ai-chat",
     image: "ai-chat/card.png",
     thumbnail: "ai-chat/view.png",
-    tags: ["best", "other"],
-    subtags: ['different'],
+    tags: ["mobile"],
     info: {
-      type: "Маркетплейсы",
+      type: "Mobile",
       date: new Date('2024-07-01'),
     }
   },
@@ -31,8 +30,7 @@ const projects = {
     title_key: "CARDS2",
     image: "CARDS2/card.png",
     thumbnail: "CARDS2/view.png",
-    tags: ["best", "other"],
-    subtags: ['different'],
+    tags: ["best", "different"],
     info: {
       type: "Маркетплейсы",
       date: new Date('2024-07-01'),
@@ -43,8 +41,7 @@ const projects = {
     title_key: "CARDS1",
     image: "CARDS1/card.png",
     thumbnail: "CARDS1/view.png",
-    tags: ["best", "other"],
-    subtags: ['different'],
+    tags: ["best", "different"],
     info: {
       type: "Маркетплейсы",
       date: new Date('2024-07-01'),
